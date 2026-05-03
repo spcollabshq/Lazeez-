@@ -50,7 +50,7 @@ export const dishes: Dish[] = [
     name: 'Mochar Chop',
     price: 220,
     description: 'Traditional banana flower croquettes, crumb-fried to perfection.',
-    image: 'https://images.unsplash.com/photo-1626777552726-4a6b54c97eb4?auto=format&fit=crop&q=80&w=800',
+    image: 'https://res.cloudinary.com/da8iy7fus/image/upload/v1777830136/Mochar-chop_m6n0md.jpg',
     category: 'Starters',
     isVeg: true,
     spiceLevel: 'Mild'

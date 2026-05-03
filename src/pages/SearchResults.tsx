@@ -50,7 +50,7 @@ export default function SearchResults() {
               className="bg-white rounded-[2.5rem] overflow-hidden group shadow-sm hover:shadow-xl border border-brand-ink/5 transition-all p-4"
             >
               <Link to={`/dish/${dish.id}`} className="block aspect-square rounded-[2rem] overflow-hidden mb-6">
-                <img src={dish.image} alt={dish.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                <img src={dish.image} alt={dish.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" referrerPolicy="no-referrer" />
               </Link>
               <div className="px-4 pb-4">
                 <div className="flex justify-between items-start mb-2">

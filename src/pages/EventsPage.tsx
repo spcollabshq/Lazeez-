@@ -10,7 +10,7 @@ const events = [
     date: 'Every Friday • 8 PM Onwards',
     description: 'Immerse yourself in soulful melodies with local artists while enjoying our signature kebabs.',
     type: 'Music',
-    image: 'https://images.unsplash.com/photo-1514525253361-bee8a187499b?auto=format&fit=crop&q=80&w=600'
+    image: 'https://res.cloudinary.com/da8iy7fus/image/upload/v1777830512/WhatsApp_Image_2026-05-01_at_8.58.29_PM_ologhp.jpg'
   }
 ];
 
@@ -26,7 +26,7 @@ export default function EventsPage() {
         {events.map((event, i) => (
           <div key={i} className="flex flex-col lg:flex-row bg-white rounded-[4rem] overflow-hidden border border-brand-ink/5 shadow-sm group hover:shadow-xl transition-all duration-500">
             <div className="lg:w-1/2 aspect-video lg:aspect-auto relative overflow-hidden">
-              <img src={event.image} alt={event.title} className="w-full h-full object-cover transition-transform duration-[2s] group-hover:scale-110" />
+              <img src={event.image} alt={event.title} className="w-full h-full object-cover transition-transform duration-[2s] group-hover:scale-110" referrerPolicy="no-referrer" />
               <div className="absolute inset-0 bg-brand-ink/30" />
               <div className="absolute top-8 left-8 bg-brand-gold text-brand-ink px-4 py-2 rounded-full text-xs font-bold uppercase tracking-widest">
                 Featured {event.type}

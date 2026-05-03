@@ -63,7 +63,7 @@ export default function MenuOverview() {
               className="bg-white rounded-[2.5rem] p-5 shadow-sm hover:shadow-xl transition-all group border border-brand-ink/5"
             >
               <Link to={`/dish/${dish.id}`} className="relative aspect-square overflow-hidden rounded-[2rem] mb-6 block">
-                <img src={dish.image} alt={dish.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                <img src={dish.image} alt={dish.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" referrerPolicy="no-referrer" />
                 <div className="absolute top-4 left-4 bg-brand-gold text-brand-ink px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest">
                   {dish.category}
                 </div>

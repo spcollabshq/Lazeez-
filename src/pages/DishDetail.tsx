@@ -20,7 +20,7 @@ export default function DishDetail() {
           className="flex-1"
         >
           <div className="relative aspect-square overflow-hidden rounded-[3rem] shadow-2xl border-8 border-white">
-            <img src={dish.image} alt={dish.name} className="w-full h-full object-cover" />
+            <img src={dish.image} alt={dish.name} className="w-full h-full object-cover" referrerPolicy="no-referrer" />
           </div>
         </motion.div>
 

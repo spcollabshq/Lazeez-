@@ -6,14 +6,14 @@ const categories = ['All', 'Ambience', 'Food', 'Bar', 'Events'];
 
 const items = [
   { url: 'https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&q=80&w=1000', category: 'Food' },
-  { url: 'https://images.unsplash.com/photo-1550966841-3ee3ad359051?auto=format&fit=crop&q=80&w=1000', category: 'Ambience' },
+  { url: 'https://res.cloudinary.com/da8iy7fus/image/upload/v1777830177/WhatsApp_Image_2026-05-01_at_8.58.31_PM_bafv84.jpg', category: 'Ambience' },
   { url: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=1000', category: 'Food' },
   { url: 'https://images.unsplash.com/photo-1543007630-9710e4a00a20?auto=format&fit=crop&q=80&w=1000', category: 'Bar' },
   { url: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=1000', category: 'Ambience' },
-  { url: 'https://images.unsplash.com/photo-1560624052-449f5ddf0c3d?auto=format&fit=crop&q=80&w=1000', category: 'Events' },
+  { url: 'https://res.cloudinary.com/da8iy7fus/image/upload/v1777830172/WhatsApp_Image_2026-05-01_at_8.58.32_PM_rogaoh.jpg', category: 'Events' },
   { url: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=1000', category: 'Food' },
   { url: 'https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&q=80&w=1000', category: 'Bar' },
-  { url: 'https://images.unsplash.com/photo-1551632432-c735e830119b?auto=format&fit=crop&q=80&w=1000', category: 'Ambience' },
+  { url: 'https://res.cloudinary.com/da8iy7fus/image/upload/v1777830218/WhatsApp_Image_2026-05-01_at_8.58.30_PM_ckc4np.jpg', category: 'Ambience' },
 ];
 
 export default function Gallery({ full = false }: { full?: boolean }) {

@@ -33,7 +33,7 @@ export default function CategoryPage() {
             className="bg-white rounded-[2rem] overflow-hidden border border-brand-ink/5 shadow-sm hover:shadow-xl transition-all group"
           >
             <Link to={`/dish/${dish.id}`} className="relative aspect-square block overflow-hidden">
-              <img src={dish.image} alt={dish.name} className="w-full h-full object-cover group-hover:scale-110 transition-all duration-700" />
+              <img src={dish.image} alt={dish.name} className="w-full h-full object-cover group-hover:scale-110 transition-all duration-700" referrerPolicy="no-referrer" />
               <div className="absolute inset-0 bg-brand-ink/10 opacity-0 group-hover:opacity-100 transition-opacity" />
             </Link>
             <div className="p-6">

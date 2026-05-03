@@ -42,10 +42,10 @@ export default function Footer() {
           <div className="space-y-6">
             <h3 className="text-[10px] uppercase tracking-widest font-bold opacity-30">Follow Us</h3>
             <div className="flex gap-4">
-               <a href="#" className="w-10 h-10 rounded-full border border-brand-paper/20 flex items-center justify-center hover:bg-brand-paper hover:text-brand-ink transition-all">
+               <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-brand-paper/20 flex items-center justify-center hover:bg-brand-paper hover:text-brand-ink transition-all">
                   <Instagram size={18} />
                </a>
-               <a href="#" className="w-10 h-10 rounded-full border border-brand-paper/20 flex items-center justify-center hover:bg-brand-paper hover:text-brand-ink transition-all">
+               <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-brand-paper/20 flex items-center justify-center hover:bg-brand-paper hover:text-brand-ink transition-all">
                   <Facebook size={18} />
                </a>
             </div>

@@ -25,7 +25,7 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center mb-32">
            <div className="relative">
               <div className="aspect-[4/5] rounded-[4rem] overflow-hidden shadow-2xl relative z-10">
-                 <img src={ambienceImg} alt="Ambience" className="w-full h-full object-cover" />
+                 <img src={ambienceImg} alt="Ambience" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
               </div>
               <div className="absolute -bottom-10 -right-10 w-full h-full border-4 border-brand-gold/20 rounded-[4rem] -z-10" />
            </div>
