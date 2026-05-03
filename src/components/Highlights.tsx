@@ -17,8 +17,8 @@ const dishes: Dish[] = [
     name: 'Kolkata Special Biryani',
     price: '₹450',
     description: 'Aromatic basmati rice cooked with succulent mutton, traditional spices, and the iconic Kolkata potato.',
-    image: '/images/regenerated_image_1777703117673.jpg',
-    secondaryImage: 'https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&q=80&w=600',
+    image: 'https://images.unsplash.com/photo-1633945274405-b6c8069047b0?auto=format&fit=crop&q=80&w=800',
+    secondaryImage: 'https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&q=80&w=800',
     tag: 'Popular',
   },
   {
@@ -26,8 +26,8 @@ const dishes: Dish[] = [
     name: 'Tangra Style Chilli Chicken',
     price: '₹380',
     description: 'A Kolkata Chinatown classic—crispy chicken tossed in a spicy, garlicky, and umami-rich sauce.',
-    image: 'https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&q=80&w=600',
-    secondaryImage: 'https://images.unsplash.com/photo-1626074353765-517a681e40be?auto=format&fit=crop&q=80&w=600',
+    image: 'https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&q=80&w=800',
+    secondaryImage: 'https://images.unsplash.com/photo-1626074353765-517a681e40be?auto=format&fit=crop&q=80&w=800',
     tag: "Chef’s Choice",
   },
   {
@@ -35,8 +35,8 @@ const dishes: Dish[] = [
     name: 'Kosha Mangsho with Luchi',
     price: '₹520',
     description: 'Slow-cooked, velvety mutton curry paired with piping hot, golden-fried puffed bread.',
-    image: '/images/regenerated_image_1777703120467.jpg',
-    secondaryImage: '/images/regenerated_image_1777703121674.jpg',
+    image: 'https://images.unsplash.com/photo-1601050690597-df056fb4679a?auto=format&fit=crop&q=80&w=800',
+    secondaryImage: 'https://images.unsplash.com/photo-1626777552726-4a6b54c97eb4?auto=format&fit=crop&q=80&w=800',
     tag: 'Must Try',
   },
   {

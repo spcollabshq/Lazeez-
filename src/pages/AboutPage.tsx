@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 import { Quote, Utensils, Heart, Music } from 'lucide-react';
 
 export default function AboutPage() {
-  const ambienceImg = "/images/regenerated_image_1777722158140.jpg";
+  const ambienceImg = "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&q=80&w=1200";
   return (
     <div className="pt-32 pb-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
