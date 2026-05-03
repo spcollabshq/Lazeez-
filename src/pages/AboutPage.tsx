@@ -3,9 +3,8 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Quote, Utensils, Heart, Music } from 'lucide-react';
 
-import ambienceImg from '../assets/images/regenerated_image_1777722158140.jpg';
-
 export default function AboutPage() {
+  const ambienceImg = "/images/regenerated_image_1777722158140.jpg";
   return (
     <div className="pt-32 pb-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

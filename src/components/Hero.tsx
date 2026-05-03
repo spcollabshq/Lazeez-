@@ -8,7 +8,7 @@ export default function Hero() {
       {/* Background with overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/regenerated_image_1777731977931.avif"
+          src="/images/regenerated_image_1777731977931.avif"
           alt="Lazeez Restaurant Interior"
           className="w-full h-full object-cover"
           referrerPolicy="no-referrer"

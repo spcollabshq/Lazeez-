@@ -1,8 +1,5 @@
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
-import biryaniImg from '../assets/images/regenerated_image_1777703117673.jpg';
-import koshaImg1 from '../assets/images/regenerated_image_1777703120467.jpg';
-import koshaImg2 from '../assets/images/regenerated_image_1777703121674.jpg';
 
 interface Dish {
   id: number;
@@ -20,7 +17,7 @@ const dishes: Dish[] = [
     name: 'Kolkata Special Biryani',
     price: '₹450',
     description: 'Aromatic basmati rice cooked with succulent mutton, traditional spices, and the iconic Kolkata potato.',
-    image: biryaniImg,
+    image: '/images/regenerated_image_1777703117673.jpg',
     secondaryImage: 'https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&q=80&w=600',
     tag: 'Popular',
   },
@@ -38,8 +35,8 @@ const dishes: Dish[] = [
     name: 'Kosha Mangsho with Luchi',
     price: '₹520',
     description: 'Slow-cooked, velvety mutton curry paired with piping hot, golden-fried puffed bread.',
-    image: koshaImg1,
-    secondaryImage: koshaImg2,
+    image: '/images/regenerated_image_1777703120467.jpg',
+    secondaryImage: '/images/regenerated_image_1777703121674.jpg',
     tag: 'Must Try',
   },
   {
